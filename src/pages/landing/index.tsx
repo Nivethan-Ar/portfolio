@@ -21,7 +21,7 @@ function Home () {
                 </span>
                 <span className='text-6xl'>software engineer</span>
               </h1>
-              <div className='bg-red-40 w-[30%] relative border-4 rounded-full hover:border-violet-600 hover:border-2'>
+              <div className='bg-red-40 w-[30%] relative border-4 rounded-full hover:border-violet-800 '>
                 <img src='/images/me-crop2.png' className='rounded-full w-full p-4'/>
               </div>
             </div>

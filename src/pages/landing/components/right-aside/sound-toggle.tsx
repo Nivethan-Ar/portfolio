@@ -48,7 +48,7 @@ function SoundToggle(props: Props) {
               after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300
               after:border after:rounded-full after:h-5 after:w-5 after:transition-all
               after:duration-700 dark:border-gray-600 peer-checked:bg-blue-600
-              border-2 peer-checked:border-slate-400
+              
               "
           />
 
