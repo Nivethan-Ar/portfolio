@@ -2,7 +2,7 @@
 function LeftAside () {
   return (
     <div className='bg-red- col-start-1 col-end-3'>
-      <img src={"/images/hand-left.webp"} alt='hand' width={250} height={100}/>
+      <img className="absolute w-32 lg:w-60" src={"/images/hand-left.webp"} alt='hand' />
     </div>
   )
 }
