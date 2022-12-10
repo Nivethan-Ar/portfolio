@@ -8,13 +8,11 @@ function SocialLinks() {
         </li>
 
         <li className='flex items-center'>
-          {/* <RiTelegramLine /> */}
           <img src='/images/github.png' className='w-8' />
           email
         </li>
 
         <li className='flex items-center'>
-          {/* <GrLinkedinOption className='rounded-full border' /> */}
           <img src='/images/email.png' className='w-8' />
           linkedin
         </li>

@@ -17,15 +17,13 @@ function Home () {
               <h1 className='text-8xl font-extrabold font-mark flex flex-col bg-slate-00'>
                 <span className='text-6xl'>Hi,</span>
                 <span className=''> I&apos;M
-                <span className='text-transparent bg-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600'> NIVETHAN, </span>
+                <span className='text-transparent bg-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600'> NIVETHAN </span>
                 </span>
                 <span className='text-6xl'>software engineer</span>
               </h1>
-              <div className='bg-red-40 w-[30%] relative border-4 rounded-full'>
-                {/* <Image src={"/images/me.jpeg"} className="rounded-full" width={300} height={300} alt='ariyaratnam nivethan' /> */}
+              <div className='bg-red-40 w-[30%] relative border-4 rounded-full hover:border-violet-600 hover:border-2'>
                 <img src='/images/me-crop2.png' className='rounded-full w-full p-4'/>
               </div>
-              {/* <p className='font-circular text-lg text-center text-gray-400'>i solve problems with code</p> */}
             </div>
 
             <div className='w-fit group'>
