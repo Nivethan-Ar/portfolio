@@ -2,7 +2,7 @@ import { ReactNode } from "react"
 
 interface Props {
   children: ReactNode
-  customClass: string
+  customClass?: string
 }
 
 function Section (props: Props) {

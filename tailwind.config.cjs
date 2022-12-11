@@ -7,7 +7,15 @@ module.exports = {
   theme: {
     fontFamily: {
       mark: ['mark-pro'],
-      circular: ['circular']
+      circular: ['circular'],
+      code: ['code']
+    },
+    extend: {
+      colors: {
+        main: {
+          gray: '#c4c4c4'
+        }
+      }
     }
   },
   plugins: [],
