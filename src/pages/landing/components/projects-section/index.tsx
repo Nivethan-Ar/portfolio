@@ -4,10 +4,10 @@ import ProjectCard from './project-card';
 function ProjectsSection() {
   return (
     <Section>
-      <div className='col-start-3 col-end-11 font-circular mt-20'>
-        <div className='flex flex-col gap-y-4 [&>p]:w-full lg:[&>p]:w-[38rem] '>
+      <div className='col-start-3 col-end-11 font-circular'>
+        <div className='my-40 flex flex-col gap-y-4 [&>p]:w-full lg:[&>p]:w-[38rem] items-center'>
           <p
-            className="text-xl text-main-gray font-code text-center lg:text-end
+            className="text-xl text-main-gray font-code text-center
                       before:content-['\201c'] before:text-6xl lg:before:text-8xl before:mr-2 before:font-circular before:text-white before:relative before:top-[25px]
                       after:content-none "
           >
@@ -37,18 +37,18 @@ function ProjectsSection() {
           </p>
         </div>
 
-        <div>
+        <div className='flex flex-col items-center mb-16 lg:mb-40'>
           <h2
-            className='text-lg lg:text-5xl font-extrabold text-transparent font-mark bg-transparent bg-clip-text
-          bg-gradient-to-r from-[#b0f3f1] to-[#b56d4e] mt-16 lg:mt-40'
+            className='text-4xl text-center lg:text-5xl font-extrabold text-transparent font-mark bg-transparent bg-clip-text
+          bg-gradient-to-r from-[#b0f3f1] to-[#b56d4e]'
           >
             Yeah, These are my projects
+            <p className='text-sm text-left lg:text-base font-circular font-normal self-start text-main-gray mt-6 mb-'>
+              Here are some of my works, Hope you find it interesting.
+            </p>
           </h2>
-          <p className=' text-main-gray mt-6 mb-6'>
-            Here are some of my works, Hope you find it interesting.
-          </p>
 
-          <div className='mb-10 mt-16 lg:mt-40 space-y-16 lg:space-y-40'>
+          <div className='mb-10 mt-16 lg: space-y-16 lg:space-y-28 w-full lg:w-[80%] bg-orange-'>
             <ProjectCard
               name='loop Studios'
               imgSrc='/images/projects/loop-studios.jpg'

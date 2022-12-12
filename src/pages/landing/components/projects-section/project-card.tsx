@@ -10,8 +10,8 @@ function ProjectCard(props: Props) {
   const { name, projectType, projectLink, githubLink, imgSrc } = props;
 
   return (
-    <div className='w-full flex justify-center '>
-      <div className='w-full lg:w-[80%] h-[25rem] lg:h-[35rem] rounded-[2rem] p-6 lg:p-12 border border-[#20222e] bg-gradient-to-b from-[#2325317b] '>
+    <div className='w-full flex justify-center bg-green- '>
+      <div className='w-full lg:w-full h-[25rem] lg:h-[35rem] rounded-[2rem] p-6 lg:p-12 border border-[#20222e] bg-gradient-to-b from-[#2325317b] '>
         <div className='grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 h-full'>
           <div
             className='h-full bg-cover bg-center rounded-[1rem] lg:rounded-[2rem]'
