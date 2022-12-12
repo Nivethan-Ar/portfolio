@@ -5,7 +5,7 @@ function ProjectsSection() {
   return (
     <Section>
       <div className='col-start-3 col-end-11 font-circular'>
-        <div className='my-40 flex flex-col gap-y-4 [&>p]:w-full lg:[&>p]:w-[38rem] items-center'>
+        <div className='my-40 flex flex-col gap-y-4 [&>p]:w-full lg:[&>p]:!w-[38rem] items-center'>
           <p
             className="text-xl text-main-gray font-code text-center
                       before:content-['\201c'] before:text-6xl lg:before:text-8xl before:mr-2 before:font-circular before:text-white before:relative before:top-[25px]
