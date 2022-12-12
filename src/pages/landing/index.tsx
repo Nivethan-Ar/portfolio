@@ -1,4 +1,5 @@
 import Section from '../../layouts/section';
+import Footer from './components/footer';
 import LandingSection from './components/landing-section';
 import LeftAside from './components/left-aside';
 import ProjectsSection from './components/projects-section';
@@ -9,6 +10,7 @@ function Home() {
     <div className='bg-[#10101a] text-white font-circular'>
       <LandingSection />
       <ProjectsSection />
+      <Footer />
     </div>
   );
 }
