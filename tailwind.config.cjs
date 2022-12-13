@@ -15,7 +15,23 @@ module.exports = {
         main: {
           gray: '#c4c4c4'
         }
+      },
+      keyframes: {
+        textGradient: {
+          '0%, 100%': {
+            'background-size': '250% 250%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '250% 250%',
+            'background-position': 'right center'
+          }
+        }
+      },
+      animation: {
+        textGradient: 'textGradient 6s ease infinite'
       }
+
     }
   },
   plugins: [],

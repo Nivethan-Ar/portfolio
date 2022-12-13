@@ -18,7 +18,7 @@ function LandingSection() {
             <span className='text-4xl lg:text-8xl'>
               {' '}
               I&apos;M
-              <span className='text-transparent bg-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600'>
+              <span className='text-transparent animate-textGradient bg-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-amber-400 to-purple-600'>
                 {' '}
                 NIVETHAN{' '}
               </span>
