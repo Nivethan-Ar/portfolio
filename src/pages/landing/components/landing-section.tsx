@@ -4,7 +4,7 @@ import RightAside from './right-aside/right-aside';
 
 function LandingSection() {
   return (
-    <Section customClass=''>
+    <Section customClass='relative overflow-hidden'>
       <LeftAside />
 
       <div className='col-start-3 col-end-11 flex flex-col justify-center'>

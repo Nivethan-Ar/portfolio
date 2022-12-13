@@ -17,6 +17,12 @@ module.exports = {
         }
       },
       keyframes: {
+        handMove: {
+          '0%, 100%': {
+            transform: 'rotate(-3deg)',
+          },
+          '50%': { transform: 'rotate(3deg)' },
+        },
         textGradient: {
           '0%, 100%': {
             'background-size': '250% 250%',
@@ -25,11 +31,12 @@ module.exports = {
           '50%': {
             'background-size': '250% 250%',
             'background-position': 'right center'
-          }
+          },
         }
       },
       animation: {
-        textGradient: 'textGradient 6s ease infinite'
+        textGradient: 'textGradient 6s ease infinite',
+        handMove: 'handMove 6s ease infinite'
       }
 
     }
