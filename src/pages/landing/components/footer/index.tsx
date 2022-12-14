@@ -19,7 +19,11 @@ function Footer() {
                 {'/>'}
               </span>
             </p>
-            <img className='w-60' src='/images/footer/man-with-laptop.svg' />
+            <img
+              loading='lazy'
+              className='w-60'
+              src='/images/footer/man-with-laptop.svg'
+            />
           </div>
         </div>
       </Section>
@@ -29,9 +33,11 @@ function Footer() {
           <p className='text-main-gray text-xs tracking-widest text-center'>
             Design inspired from Adeola | This page is made with&nbsp;
             <FaHeartbeat className='inline-block text-lg fill[#b0f3f1] fill-purple-600 mx-' />
-            &nbsp;
-            by
-            <span className='text[#b0f3f1] text-purple-600'> &nbsp;Nivethan</span>
+            &nbsp; by
+            <span className='text[#b0f3f1] text-purple-600'>
+              {' '}
+              &nbsp;Nivethan
+            </span>
           </p>
         </div>
       </Section>

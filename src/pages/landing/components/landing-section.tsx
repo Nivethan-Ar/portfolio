@@ -68,6 +68,7 @@ function LandingSection() {
             <img
               src='/images/me-crop2.png'
               className='rounded-full w-full p-2 lg:p-4'
+              loading='lazy'
             />
           </div>
         </div>
