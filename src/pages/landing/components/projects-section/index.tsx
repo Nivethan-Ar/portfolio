@@ -68,7 +68,7 @@ function ProjectsSection() {
               projectType={['front-end', 'back-end', 'api']}
             />
 
-            <ProjectCard
+            {/* <ProjectCard
               name='loop Studios'
               imgSrc='/images/projects/loop-studios.jpg'
               githubLink='/'
@@ -81,7 +81,7 @@ function ProjectsSection() {
               githubLink='/'
               projectLink='/'
               projectType={['front-end', 'back-end', 'api']}
-            />
+            /> */}
 
             {/* <div className='flex justify-center'>
               <a
