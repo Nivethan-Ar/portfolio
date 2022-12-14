@@ -27,10 +27,7 @@ function ProjectCard(props: Props) {
 
             <a href={projectLink} className='relative'>
               <p
-                className='text-sm lg:text-lg text-[#b0f3f1] font-bold font-circular uppercase tracking-widest
-                after:content-[""] after:absolute after:w-1/3 after:-bottom-2 after:left-0 after:h-[2px] after:bg-white
-                after:transition-all after:duration-500 after:ease-in-out
-                after:hover:w-full  after:hover:duration-500 after:hover:transition-all after:hover:ease-in-out
+                className='text-sm lg:text-lg text-[#b0f3f1] font-bold font-circular uppercase tracking-widest animated-underline
               '
               >
                 visit the website
@@ -39,10 +36,7 @@ function ProjectCard(props: Props) {
 
             <a href={githubLink} className='relative'>
               <p
-                className='text-sm lg:text-lg text-[#b0f3f1] font-bold font-code  tracking-widest
-                after:content-[""] after:absolute after:w-1/3 after:-bottom-2 after:right-0 after:h-[2px] after:bg-white
-                after:transition-all after:duration-500 after:ease-in-out
-                after:hover:w-full  after:hover:duration-500 after:hover:transition-all after:hover:ease-in-out
+                className='text-sm lg:text-lg text-[#b0f3f1] font-bold font-code  tracking-widest animated-underline-to-l
               '
               >
                 Check the

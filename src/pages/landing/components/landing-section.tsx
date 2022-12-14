@@ -67,11 +67,10 @@ function LandingSection() {
           </div>
         </div>
 
-        <div className='w-fit group mt-8 lg:mt-16'>
-          <h2 className='uppercase text-sm mb-1 lg:text-xl text-main-gray'>
+        <div className='w-fit group relative mt-8 lg:mt-16'>
+          <h2 className='uppercase text-sm mb-1 lg:text-xl text-main-gray animated-underline'>
             view projects
           </h2>
-          <div className='w-1/2 bg-white h-[1px] group-hover:w-full' />
         </div>
       </div>
 
