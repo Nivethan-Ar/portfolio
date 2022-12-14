@@ -55,8 +55,16 @@ function ProjectsSection() {
             <ProjectCard
               name='loop Studios'
               imgSrc='/images/projects/loop-studios.jpg'
-              githubLink='/'
-              projectLink='/'
+              githubLink='https://github.com/Nivethan-Ar/frontend-with-react-and-tailwind/tree/main/src'
+              projectLink='https://the-loop-studios.vercel.app/'
+              projectType={['front-end', 'back-end', 'api']}
+            />
+
+            <ProjectCard
+              name='cashify'
+              imgSrc='/images/projects/cashify.jpg'
+              githubLink='https://github.com/Nivethan-Ar/cashify-banking-app'
+              projectLink='https://nivethan-ar.github.io/cashify-banking-app/'
               projectType={['front-end', 'back-end', 'api']}
             />
 
@@ -65,14 +73,6 @@ function ProjectsSection() {
               imgSrc='/images/projects/loop-studios.jpg'
               githubLink='/'
               projectLink='/'
-              projectType={['front-end', 'back-end', 'api']}
-            />
-
-            <ProjectCard
-              name='loop Studios'
-              imgSrc='/images/projects/cashify.jpg'
-              githubLink='https://github.com/Nivethan-Ar/cashify-banking-app'
-              projectLink='https://nivethan-ar.github.io/cashify-banking-app/'
               projectType={['front-end', 'back-end', 'api']}
             />
             <ProjectCard
