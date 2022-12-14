@@ -25,7 +25,7 @@ function ProjectCard(props: Props) {
               {name}
             </h1>
 
-            <a href={projectLink} className='relative'>
+            <a href={projectLink} target='_blank' className='relative'>
               <p
                 className='text-sm lg:text-lg text-[#b0f3f1] font-bold font-circular uppercase tracking-widest animated-underline
               '
@@ -34,7 +34,7 @@ function ProjectCard(props: Props) {
               </p>
             </a>
 
-            <a href={githubLink} className='relative'>
+            <a href={githubLink} target='_blank' className='relative'>
               <p
                 className='text-sm lg:text-lg text-[#b0f3f1] uppercase font-bold font-circular  tracking-widest animated-underline-to-l
               '

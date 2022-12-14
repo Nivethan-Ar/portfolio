@@ -4,7 +4,10 @@ import ProjectCard from './project-card';
 function ProjectsSection() {
   return (
     <Section>
-      <div id='project-section' className='col-start-3 col-end-11 font-circular'>
+      <div
+        id='project-section'
+        className='col-start-3 col-end-11 font-circular'
+      >
         <div className='my-40 flex flex-col gap-y-4 [&>p]:w-full lg:[&>p]:!w-[38rem] items-center'>
           <p
             className="text-xl text-main-gray font-code text-center
@@ -64,11 +67,12 @@ function ProjectsSection() {
               projectLink='/'
               projectType={['front-end', 'back-end', 'api']}
             />
+
             <ProjectCard
               name='loop Studios'
-              imgSrc='/images/projects/loop-studios.jpg'
-              githubLink='/'
-              projectLink='/'
+              imgSrc='/images/projects/cashify.jpg'
+              githubLink='https://github.com/Nivethan-Ar/cashify-banking-app'
+              projectLink='https://nivethan-ar.github.io/cashify-banking-app/'
               projectType={['front-end', 'back-end', 'api']}
             />
             <ProjectCard
