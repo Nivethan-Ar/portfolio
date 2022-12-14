@@ -30,6 +30,11 @@ function LandingSection() {
     };
   }, [containerRef]);
 
+  const scrollToProjects = () => {
+    const projectSection = document.querySelector('#project-section');
+    projectSection?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
   return (
     <Section customClass='relative overflow-hidden'>
       <LeftAside />
@@ -68,9 +73,12 @@ function LandingSection() {
         </div>
 
         <div className='w-fit group relative mt-8 lg:mt-16'>
-          <h2 className='uppercase text-sm mb-1 lg:text-xl text-main-gray animated-underline'>
+          <a
+            onClick={scrollToProjects}
+            className='uppercase cursor-pointer text-sm mb-1 lg:text-xl text-main-gray animated-underline'
+          >
             view projects
-          </h2>
+          </a>
         </div>
       </div>
 
