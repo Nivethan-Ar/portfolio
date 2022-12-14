@@ -75,7 +75,7 @@ function LandingSection() {
         <div className='w-fit group relative mt-8 lg:mt-16'>
           <a
             onClick={scrollToProjects}
-            className='uppercase cursor-pointer text-sm mb-1 lg:text-xl text-main-gray animated-underline'
+            className='uppercase select-none cursor-pointer text-sm mb-1 lg:text-xl text-main-gray animated-underline'
           >
             view projects
           </a>
