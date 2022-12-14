@@ -36,7 +36,7 @@ function ProjectCard(props: Props) {
 
             <a href={githubLink} className='relative'>
               <p
-                className='text-sm lg:text-lg text-[#b0f3f1] font-bold font-code  tracking-widest animated-underline-to-l
+                className='text-sm lg:text-lg text-[#b0f3f1] uppercase font-bold font-circular  tracking-widest animated-underline-to-l
               '
               >
                 Check the
