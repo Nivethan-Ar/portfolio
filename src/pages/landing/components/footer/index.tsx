@@ -32,12 +32,17 @@ function Footer() {
         <div className='bg-[#10101a] col-start-3 col-end-11'>
           <p className='text-main-gray text-xs tracking-widest text-center'>
             Design inspired from Adeola | This page is made with&nbsp;
-            <FaHeartbeat className='inline-block text-lg fill[#b0f3f1] fill-purple-600 mx-' />
+            <FaHeartbeat className='inline-block animate-pulse text-lg fill[#b0f3f1] fill-purple-600 mx-' />
             &nbsp; by
-            <span className='text[#b0f3f1] text-purple-600'>
-              {' '}
-              &nbsp;Nivethan
-            </span>
+            <a
+              target={'_blank'}
+              href='https://www.linkedin.com/in/nivethan-ar/'
+            >
+              <span className='text[#b0f3f1] text-purple-600'>
+                {' '}
+                &nbsp;Nivethan
+              </span>
+            </a>
           </p>
         </div>
       </Section>
