@@ -1,13 +1,44 @@
+import { useEffect, useRef, useState } from 'react';
 import Section from '../../../layouts/section';
 import LeftAside from './left-aside';
 import RightAside from './right-aside/right-aside';
 
 function LandingSection() {
+  const [isVisible, setIsVisible] = useState(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
+  const callbackFunction = (entries: any) => {
+    entries.forEach((entry: IntersectionObserverEntry) => {
+      console.log(entry);
+      if (entry.isIntersecting) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    });
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(callbackFunction);
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+    return () => {
+      if (containerRef.current) {
+        observer.unobserve(containerRef.current);
+      }
+    };
+  }, [containerRef]);
+
   return (
     <Section customClass='relative overflow-hidden'>
       <LeftAside />
 
-      <div className='col-start-3 col-end-11 flex flex-col justify-center'>
+      <div
+        ref={containerRef}
+        className={`col-start-3 col-end-11 flex flex-col justify-center transition-all duration-1000
+        ${isVisible ? 'slide-r-t' : 'slide-r-f'}`}
+      >
         <div
           className='flex flex-col-reverse gap-y-4 items-start justify-between gap-x-0 bg-slate-40
               lg:flex-row lg:items-center lg:gap-y-0
@@ -37,7 +68,9 @@ function LandingSection() {
         </div>
 
         <div className='w-fit group mt-8 lg:mt-16'>
-          <h2 className='uppercase text-sm mb-1 lg:text-xl text-main-gray'>view projects</h2>
+          <h2 className='uppercase text-sm mb-1 lg:text-xl text-main-gray'>
+            view projects
+          </h2>
           <div className='w-1/2 bg-white h-[1px] group-hover:w-full' />
         </div>
       </div>
