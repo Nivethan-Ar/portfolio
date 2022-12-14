@@ -1,16 +1,17 @@
-import Section from '../../layouts/section';
-import Footer from './components/footer';
-import LandingSection from './components/landing-section';
-import LeftAside from './components/left-aside';
-import ProjectsSection from './components/projects-section';
-import RightAside from './components/right-aside/right-aside';
+import { lazy, Suspense } from 'react';
+import Loader from './components/loader';
+const Footer = lazy(() => import('./components/footer'));
+const LandingSection = lazy(() => import('./components/landing-section'));
+const ProjectsSection = lazy(() => import('./components/projects-section'));
 
 function Home() {
   return (
     <div className='bg-[#10101a] text-white font-circular'>
-      <LandingSection />
-      <ProjectsSection />
-      <Footer />
+      <Suspense fallback={<Loader />}>
+        <LandingSection />
+        <ProjectsSection />
+        <Footer />
+      </Suspense>
     </div>
   );
 }
