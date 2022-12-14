@@ -82,7 +82,8 @@ function ProjectsSection() {
               projectLink='/'
               projectType={['front-end', 'back-end', 'api']}
             />
-            <div className='flex justify-center'>
+
+            {/* <div className='flex justify-center'>
               <a
                 className='font-circular text-base uppercase font-bold text-[#b0f3f1]'
                 href='/'
@@ -90,7 +91,7 @@ function ProjectsSection() {
                 {' '}
                 see all projects
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
