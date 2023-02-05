@@ -19,7 +19,6 @@ function RightAside() {
           src={'/images/hand-right.webp'}
           className='w-40 ml-auto lg:w-56 2xl:w-72 animate-handMove'
           alt='hand'
-          loading='lazy'
         />
       </div>
     </div>
