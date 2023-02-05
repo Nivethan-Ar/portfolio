@@ -51,7 +51,7 @@ function ProjectsSection() {
             </p>
           </h2>
 
-          <div className='mb-10 mt-16 lg: space-y-16 lg:space-y-28 w-full lg:w-[80%] bg-orange-'>
+          <div className='mb-10 mt-16 lg: space-y-16 lg:space-y-28 w-full lg:w-[90%] bg-orange-'>
 
             <ProjectCard
               name='ML dashboard'
@@ -62,14 +62,15 @@ function ProjectsSection() {
               projectType={['front-end', 'back-end', 'api']}
             />
 
-
             <ProjectCard
-              name='cashify'
-              imgSrc='/images/projects/cashify.jpg'
-              githubLink='https://github.com/Nivethan-Ar/cashify-banking-app'
-              projectLink='https://nivethan-ar.github.io/cashify-banking-app/'
+              name='minimalized blog'
+              imgSrc='/images/projects/blog.jpg'
+              imgClassNames='!bg-left !brightness-90'
+              githubLink='https://github.com/Nivethan-Ar/minimal-blog'
+              projectLink='https://nivethan-blog.vercel.app/'
               projectType={['front-end', 'back-end', 'api']}
             />
+
 
             <ProjectCard
               name='loop Studios'
@@ -80,12 +81,21 @@ function ProjectsSection() {
             />
 
             <ProjectCard
-              name='loop Studios'
+              name='react template'
               imgSrc='/images/projects/obest-cat.webp'
               githubLink='https://github.com/Nivethan-Ar/obese-cat'
               projectLink='https://github.com/Nivethan-Ar/obese-cat'
               projectType={['front-end', 'back-end', 'api']}
             />
+
+            <ProjectCard
+              name='cashify'
+              imgSrc='/images/projects/cashify.jpg'
+              githubLink='https://github.com/Nivethan-Ar/cashify-banking-app'
+              projectLink='https://nivethan-ar.github.io/cashify-banking-app/'
+              projectType={['front-end', 'back-end', 'api']}
+            />
+
             {/* <ProjectCard
               name='loop Studios'
               imgSrc='/images/projects/loop-studios.jpg'

@@ -12,7 +12,8 @@ function ProjectCard(props: Props) {
 
   return (
     <div className='w-full flex justify-center bg-green- '>
-      <div className='w-full lg:w-full h-[25rem] lg:h-[35rem] rounded-[2rem] p-6 lg:p-12 border border-[#20222e] bg-gradient-to-b from-[#2325317b] '>
+      <div className='w-full lg:w-full h-[25rem] lg:h-[35rem] rounded-[2rem] p-6 lg:p-12 border-2 border-[#20222e] hover:border-white/60 transition-all duration-1000 bg-gradient-to-b from-[#2325317b] '>
+
         <div className='grid grid-cols-1 grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 h-full'>
           <div
             className={`${imgClassNames}  h-full bg-cover bg-center rounded-[1rem] lg:rounded-[2rem] `}
@@ -22,7 +23,7 @@ function ProjectCard(props: Props) {
           />
           {/*  */}
           <div className='lg:ml-12 mt-6 lg:mt-0 flex flex-col gap-y-6 lg:gap-y-12 lg:justify-center items-start -red-400 relative'>
-            <h1 className='font-mark font-bold capitalize text-3xl lg:text-4xl'>
+            <h1 className='font-mark font-bold capitalize text-xl lg:text-4xl'>
               {name}
             </h1>
 
