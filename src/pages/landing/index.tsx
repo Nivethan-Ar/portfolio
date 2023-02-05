@@ -1,7 +1,8 @@
 import { lazy, Suspense } from 'react';
+import LandingSection from './components/landing-section';
 import Loader from './components/loader';
 const Footer = lazy(() => import('./components/footer'));
-const LandingSection = lazy(() => import('./components/landing-section'));
+// const LandingSection = lazy(() => import('./components/landing-section'));
 const ProjectsSection = lazy(() => import('./components/projects-section'));
 
 function Home() {
