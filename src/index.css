@@ -5,34 +5,40 @@
 @font-face {
   font-family: "mark-pro";
   src: url("/fonts/mark-pro.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "mark-pro";
   font-weight: bold;
   src: url("/fonts/mark-pro-bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "circular";
   src: url("/fonts/circular.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "circular";
   font-weight: bold;
   src: url("/fonts/circular-bold.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "code";
   src: url("/fonts/ap.ttf");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "code";
   font-weight: bold;
   src: url("/fonts/ap-bold.ttf");
+  font-display: swap;
 }
 
 
