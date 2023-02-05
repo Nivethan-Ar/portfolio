@@ -52,13 +52,16 @@ function ProjectsSection() {
           </h2>
 
           <div className='mb-10 mt-16 lg: space-y-16 lg:space-y-28 w-full lg:w-[80%] bg-orange-'>
+
             <ProjectCard
-              name='loop Studios'
-              imgSrc='/images/projects/loop-studios.jpg'
-              githubLink='https://github.com/Nivethan-Ar/frontend-with-react-and-tailwind/tree/main/src'
-              projectLink='https://the-loop-studios.vercel.app/'
+              name='ML dashboard'
+              imgSrc='/images/projects/dashboard.jpg'
+              imgClassNames='!bg-left !brightness-90'
+              githubLink='https://github.com/Nivethan-Ar/ml-dashboard'
+              projectLink='https://ml-dashboard.vercel.app/'
               projectType={['front-end', 'back-end', 'api']}
             />
+
 
             <ProjectCard
               name='cashify'
@@ -68,6 +71,21 @@ function ProjectsSection() {
               projectType={['front-end', 'back-end', 'api']}
             />
 
+            <ProjectCard
+              name='loop Studios'
+              imgSrc='/images/projects/loop-studios.jpg'
+              githubLink='https://github.com/Nivethan-Ar/frontend-with-react-and-tailwind/tree/main/src'
+              projectLink='https://the-loop-studios.vercel.app/'
+              projectType={['front-end', 'back-end', 'api']}
+            />
+
+            <ProjectCard
+              name='loop Studios'
+              imgSrc='/images/projects/obest-cat.webp'
+              githubLink='https://github.com/Nivethan-Ar/obese-cat'
+              projectLink='https://github.com/Nivethan-Ar/obese-cat'
+              projectType={['front-end', 'back-end', 'api']}
+            />
             {/* <ProjectCard
               name='loop Studios'
               imgSrc='/images/projects/loop-studios.jpg'
