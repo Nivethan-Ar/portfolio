@@ -46,7 +46,7 @@ function ProjectsSection() {
           bg-gradient-to-r from-[#b0f3f1] to-[#b56d4e]'
           >
             Yeah, These are my projects
-            <p className='text-sm text-left lg:text-base font-circular font-normal self-start text-main-gray mt-6 mb-'>
+            <p className='text-sm text-left lg:text-center lg:text-base font-circular font-normal self-start text-main-gray mt-6 mb-'>
               Here are some of my works, Hope you find it interesting.
             </p>
           </h2>

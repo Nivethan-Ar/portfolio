@@ -14,7 +14,7 @@ function RightAside() {
         <SocialLinks />
       </div>
 
-      <div className='absolute -bottom-0 -right-4 '>
+      <div className='absolute -bottom-2 -right-4 '>
         <img
           src={'/images/hand-right.webp'}
           className='w-40 ml-auto lg:w-56 2xl:w-72 animate-handMove'

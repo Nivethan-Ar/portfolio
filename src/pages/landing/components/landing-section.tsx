@@ -49,18 +49,20 @@ function LandingSection() {
               lg:flex-row lg:items-center lg:gap-y-0
             '
         >
-          <h1 className=' font-extrabold font-mark flex flex-col bg-slate-00'>
-            <span className='text-4xl lg:text-8xl'>Hi,</span>
-            <span className='text-4xl lg:text-8xl'>
+          <div className='font-extrabold font-mark flex flex-col gap-y- justify-center bg-slate-00'>
+            <span className='text-4xl lg:text-7xl 2xl:text-8xl'>Hi,</span>
+            <span className='text-4xl lg:text-7xl 2xl:text-8xl pt-1 lg:pt-2 inline-block align-middle leading-none'>
               {' '}
               I&apos;M
-              <span className='text-transparent animate-textGradient bg-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-amber-400 to-purple-600'>
+              <span className=' text-transparent animate-textGradient bg-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-amber-400 to-purple-600'>
                 {' '}
                 NIVETHAN{' '}
               </span>
             </span>
-            <span className='text-2xl lg:text-6xl'>software engineer</span>
-          </h1>
+            <span className='text-xl capitalize self-end lg:text-4xl 2xl:text-5xl'>
+              software engineer
+            </span>
+          </div>
           <div
             className='bg-red-40 w-[55%] relative border-2  rounded-full hover:border-violet-800
                 lg:w-[30%] lg:border-4 self-center'
